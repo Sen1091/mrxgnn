@@ -1,0 +1,260 @@
+[
+ {
+  "n": 1,
+  "cite": "(Alzheimer's Disease International, n.d.)",
+  "apa": "Alzheimer's Disease International. (n.d.). Dementia statistics. Retrieved November 9, 2026, from https://www.alzint.org/about/dementia-facts-figures/dementia-statistics/",
+  "verified": true
+ },
+ {
+  "n": 2,
+  "cite": "(Jack et al., 2018)",
+  "apa": "Jack, C. R., Jr., Bennett, D. A., Blennow, K., Carrillo, M. C., Dunn, B., Haeberlein, S. B., Holtzman, D. M., Jagust, W., Jessen, F., Karlawish, J., Liu, E., Molinuevo, J. L., Montine, T., Phelps, C., Rankin, K. P., Rowe, C. C., Scheltens, P., Siemers, E., Snyder, H. M., . . . Silverberg, N. (2018). NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. Alzheimer's & Dementia, 14(4), 535–562. https://doi.org/10.1016/j.jalz.2018.02.018",
+  "verified": true
+ },
+ {
+  "n": 3,
+  "cite": "(Jack et al., 2024)",
+  "apa": "Jack, C. R., Jr., Andrews, J. S., Beach, T. G., Buracchio, T., Dunn, B., Graf, A., Hansson, O., Ho, C., Jagust, W., McDade, E., Molinuevo, J. L., Okonkwo, O. C., Pani, L., Rafii, M. S., Scheltens, P., Siemers, E., Snyder, H. M., Sperling, R., Teunissen, C. E., & Carrillo, M. C. (2024). Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup. Alzheimer's & Dementia, 20(8), 5143–5169. https://doi.org/10.1002/alz.13859",
+  "verified": true
+ },
+ {
+  "n": 4,
+  "cite": "(Venugopalan et al., 2021)",
+  "apa": "Venugopalan, J., Tong, L., Hassanzadeh, H. R., & Wang, M. D. (2021). Multimodal deep learning models for early detection of Alzheimer's disease stage. Scientific Reports, 11(1), Article 3254. https://doi.org/10.1038/s41598-020-74399-w",
+  "verified": true
+ },
+ {
+  "n": 5,
+  "cite": "(Golovanevsky et al., 2022)",
+  "apa": "Golovanevsky, M., Eickhoff, C., & Singh, R. (2022). Multimodal attention-based deep learning for Alzheimer's disease diagnosis. Journal of the American Medical Informatics Association, 29(12), 2014–2022. https://doi.org/10.1093/jamia/ocac168",
+  "verified": true
+ },
+ {
+  "n": 6,
+  "cite": "(Tang et al., 2024)",
+  "apa": "Tang, C., Xi, M., Sun, J., Wang, S., & Zhang, Y. (2024). MACFNet: Detection of Alzheimer's disease via multiscale attention and cross-enhancement fusion network. Computer Methods and Programs in Biomedicine, 254, Article 108259. https://doi.org/10.1016/j.cmpb.2024.108259",
+  "verified": true
+ },
+ {
+  "n": 7,
+  "cite": "(Tang et al., 2023)",
+  "apa": "Tang, C., Wei, M., Sun, J., Wang, S., & Zhang, Y. (2023). CsAGP: Detecting Alzheimer's disease from multimodal images via dual-transformer with cross-attention and graph pooling. Journal of King Saud University – Computer and Information Sciences, 35(7), Article 101618. https://doi.org/10.1016/j.jksuci.2023.101618",
+  "verified": true
+ },
+ {
+  "n": 8,
+  "cite": "(Choudhury et al., 2024)",
+  "apa": "Choudhury, C., Goel, T., & Tanveer, M. (2024). A coupled-GAN architecture to fuse MRI and PET image features for multi-stage classification of Alzheimer's disease. Information Fusion, 109, Article 102415. https://doi.org/10.1016/j.inffus.2024.102415",
+  "verified": true
+ },
+ {
+  "n": 9,
+  "cite": "(Zhu et al., 2023)",
+  "apa": "Zhu, Q., Xu, B., Huang, J., Wang, H., Xu, R., Shao, W., & Zhang, D. (2023). Deep multi-modal discriminative and interpretability network for Alzheimer's disease diagnosis. IEEE Transactions on Medical Imaging, 42(5), 1472–1483. https://doi.org/10.1109/TMI.2022.3230750",
+  "verified": true
+ },
+ {
+  "n": 10,
+  "cite": "(Ma et al., 2021)",
+  "apa": "Ma, M., Ren, J., Zhao, L., Tulyakov, S., Wu, C., & Peng, X. (2021). SMIL: Multimodal learning with severely missing modality. Proceedings of the AAAI Conference on Artificial Intelligence, 35(3), 2302–2310. https://doi.org/10.1609/aaai.v35i3.16330",
+  "verified": true
+ },
+ {
+  "n": 11,
+  "cite": "(Xue et al., 2024)",
+  "apa": "Xue, C., Kowshik, S. S., Lteif, D., Puducheri, S., Jasodanand, V. H., Zhou, O. T., Walia, A. S., Guney, O. B., Zhang, J. D., Poésy, S., Kaliaev, A., Andreu-Arasa, V. C., Dwyer, B. C., Farris, C. W., Hao, H., Kedar, S., Mian, A. Z., Murman, D. L., O'Shea, S. A., . . . Kolachalama, V. B. (2024). AI-based differential diagnosis of dementia etiologies on multimodal data. Nature Medicine, 30(10), 2977–2989. https://doi.org/10.1038/s41591-024-03118-z",
+  "verified": true
+ },
+ {
+  "n": 12,
+  "cite": "(Wen et al., 2020)",
+  "apa": "Wen, J., Thibeau-Sutre, E., Diaz-Melo, M., Samper-González, J., Routier, A., Bottani, S., Dormont, D., Durrleman, S., Burgos, N., & Colliot, O. (2020). Convolutional neural networks for classification of Alzheimer's disease: Overview and reproducible evaluation. Medical Image Analysis, 63, Article 101694. https://doi.org/10.1016/j.media.2020.101694",
+  "verified": true
+ },
+ {
+  "n": 13,
+  "cite": "(Yagis et al., 2021)",
+  "apa": "Yagis, E., Atnafu, S. W., García Seco de Herrera, A., Marzi, C., Scheda, R., Giannelli, M., Tessa, C., Citi, L., & Diciotti, S. (2021). Effect of data leakage in brain MRI classification using 2D convolutional neural networks. Scientific Reports, 11(1), Article 22544. https://doi.org/10.1038/s41598-021-01681-w",
+  "verified": true
+ },
+ {
+  "n": 14,
+  "cite": "(Petersen et al., 2010)",
+  "apa": "Petersen, R. C., Aisen, P. S., Beckett, L. A., Donohue, M. C., Gamst, A. C., Harvey, D. J., Jack, C. R., Jr., Jagust, W. J., Shaw, L. M., Toga, A. W., Trojanowski, J. Q., & Weiner, M. W. (2010). Alzheimer's Disease Neuroimaging Initiative (ADNI): Clinical characterization. Neurology, 74(3), 201–209. https://doi.org/10.1212/WNL.0b013e3181cb3e25",
+  "verified": true
+ },
+ {
+  "n": 15,
+  "cite": "(Adebayo et al., 2018)",
+  "apa": "Adebayo, J., Gilmer, J., Muelly, M., Goodfellow, I., Hardt, M., & Kim, B. (2018). Sanity checks for saliency maps. In Advances in Neural Information Processing Systems (Vol. 31). Curran Associates. https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+  "verified": true
+ },
+ {
+  "n": 16,
+  "cite": "(Hooker et al., 2019)",
+  "apa": "Hooker, S., Erhan, D., Kindermans, P.-J., & Kim, B. (2019). A benchmark for interpretability methods in deep neural networks. In Advances in Neural Information Processing Systems (Vol. 32). Curran Associates. https://proceedings.neurips.cc/paper/2019/hash/fe4b8556000d0f0cae99daa5c5c5a410-Abstract.html",
+  "verified": true
+ },
+ {
+  "n": 17,
+  "cite": "(He et al., 2025)",
+  "apa": "He, Y., Wang, Z., Zhang, Y., Dan, T., Chen, T., Wu, G., & Li, A. (2025). NeuroSymAD: A neuro-symbolic framework for interpretable Alzheimer's disease diagnosis [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2503.00510",
+  "verified": true
+ },
+ {
+  "n": 18,
+  "cite": "(Li & Tang, 2024)",
+  "apa": "Li, S., & Tang, H. (2024). Multimodal alignment and fusion: A survey [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2411.17040",
+  "verified": true
+ },
+ {
+  "n": 19,
+  "cite": "(Zhang & Shi, 2020)",
+  "apa": "Zhang, T., & Shi, M. (2020). Multi-modal neuroimaging feature fusion for diagnosis of Alzheimer's disease. Journal of Neuroscience Methods, 341, Article 108795. https://doi.org/10.1016/j.jneumeth.2020.108795",
+  "verified": true
+ },
+ {
+  "n": 20,
+  "cite": "(Song et al., 2021)",
+  "apa": "Song, J., Zheng, J., Li, P., Lu, X., Zhu, G., & Shen, P. (2021). An effective multimodal image fusion method using MRI and PET for Alzheimer's disease diagnosis. Frontiers in Digital Health, 3, Article 637386. https://doi.org/10.3389/fdgth.2021.637386",
+  "verified": true
+ },
+ {
+  "n": 21,
+  "cite": "(Lin et al., 2021)",
+  "apa": "Lin, W., Lin, W., Chen, G., Zhang, H., Gao, Q., Huang, Y., Tong, T., Du, M., & Alzheimer's Disease Neuroimaging Initiative. (2021). Bidirectional mapping of brain MRI and PET with 3D reversible GAN for the diagnosis of Alzheimer's disease. Frontiers in Neuroscience, 15, Article 646013. https://doi.org/10.3389/fnins.2021.646013",
+  "verified": true
+ },
+ {
+  "n": 22,
+  "cite": "(Kipf & Welling, 2017)",
+  "apa": "Kipf, T. N., & Welling, M. (2017). Semi-supervised classification with graph convolutional networks [Conference paper]. 5th International Conference on Learning Representations (ICLR 2017), Toulon, France. https://arxiv.org/abs/1609.02907",
+  "verified": true
+ },
+ {
+  "n": 23,
+  "cite": "(Veličković et al., 2018)",
+  "apa": "Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., & Bengio, Y. (2018). Graph attention networks [Conference paper]. 6th International Conference on Learning Representations (ICLR 2018), Vancouver, Canada. https://arxiv.org/abs/1710.10903",
+  "verified": true
+ },
+ {
+  "n": 24,
+  "cite": "(Parisot et al., 2018)",
+  "apa": "Parisot, S., Ktena, S. I., Ferrante, E., Lee, M., Guerrero, R., Glocker, B., & Rueckert, D. (2018). Disease prediction using graph convolutional networks: Application to autism spectrum disorder and Alzheimer's disease. Medical Image Analysis, 48, 117–130. https://doi.org/10.1016/j.media.2018.06.001",
+  "verified": true
+ },
+ {
+  "n": 25,
+  "cite": "(Gao et al., 2022)",
+  "apa": "Gao, X., Shi, F., Shen, D., & Liu, M. (2022). Task-induced pyramid and attention GAN for multimodal brain image imputation and classification in Alzheimer's disease. IEEE Journal of Biomedical and Health Informatics, 26(1), 36–43. https://doi.org/10.1109/JBHI.2021.3097721",
+  "verified": true
+ },
+ {
+  "n": 26,
+  "cite": "(Hinton et al., 2015)",
+  "apa": "Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network [Preprint]. arXiv. https://doi.org/10.48550/arXiv.1503.02531",
+  "verified": true
+ },
+ {
+  "n": 27,
+  "cite": "(Ye et al., 2023)",
+  "apa": "Ye, H., Zhu, Q., Yao, Y., Jin, Y., & Zhang, D. (2023). Pairwise feature-based generative adversarial network for incomplete multi-modal Alzheimer's disease diagnosis. The Visual Computer, 39(6), 2235–2244. https://doi.org/10.1007/s00371-021-02354-5",
+  "verified": true
+ },
+ {
+  "n": 28,
+  "cite": "(Samper-González et al., 2018)",
+  "apa": "Samper-González, J., Burgos, N., Bottani, S., Fontanella, S., Lu, P., Marcoux, A., Routier, A., Guillon, J., Bacci, M., Wen, J., Bertrand, A., Bertin, H., Habert, M.-O., Durrleman, S., Evgeniou, T., & Colliot, O. (2018). Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data. NeuroImage, 183, 504–521. https://doi.org/10.1016/j.neuroimage.2018.08.042",
+  "verified": true
+ },
+ {
+  "n": 29,
+  "cite": "(Weiner et al., 2017)",
+  "apa": "Weiner, M. W., Veitch, D. P., Aisen, P. S., Beckett, L. A., Cairns, N. J., Green, R. C., Harvey, D., Jack, C. R., Jr., Jagust, W. J., Morris, J. C., Petersen, R. C., Salazar, J., Saykin, A. J., Shaw, L. M., Toga, A. W., Trojanowski, J. Q., & Alzheimer's Disease Neuroimaging Initiative. (2017). The Alzheimer's Disease Neuroimaging Initiative 3: Continued innovation for clinical trial improvement. Alzheimer's & Dementia, 13(5), 561–571. https://doi.org/10.1016/j.jalz.2016.10.006",
+  "verified": true
+ },
+ {
+  "n": 30,
+  "cite": "(Desikan et al., 2006)",
+  "apa": "Desikan, R. S., Ségonne, F., Fischl, B., Quinn, B. T., Dickerson, B. C., Blacker, D., Buckner, R. L., Dale, A. M., Maguire, R. P., Hyman, B. T., Albert, M. S., & Killiany, R. J. (2006). An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage, 31(3), 968–980. https://doi.org/10.1016/j.neuroimage.2006.01.021",
+  "verified": true
+ },
+ {
+  "n": 31,
+  "cite": "(Fischl, 2012)",
+  "apa": "Fischl, B. (2012). FreeSurfer. NeuroImage, 62(2), 774–781. https://doi.org/10.1016/j.neuroimage.2012.01.021",
+  "verified": true
+ },
+ {
+  "n": 32,
+  "cite": "(Hansson et al., 2018)",
+  "apa": "Hansson, O., Seibyl, J., Stomrud, E., Zetterberg, H., Trojanowski, J. Q., Bittner, T., Lifke, V., Corradini, V., Eichenlaub, U., Batrla, R., Buck, K., Zink, K., Rabe, C., Blennow, K., Shaw, L. M., Swedish BioFINDER Study Group, & Alzheimer's Disease Neuroimaging Initiative. (2018). CSF biomarkers of Alzheimer's disease concord with amyloid-β PET and predict clinical progression: A study of fully automated immunoassays in BioFINDER and ADNI cohorts. Alzheimer's & Dementia, 14(11), 1470–1481. https://doi.org/10.1016/j.jalz.2018.01.010",
+  "verified": true
+ },
+ {
+  "n": 33,
+  "cite": "(Sundararajan et al., 2017)",
+  "apa": "Sundararajan, M., Taly, A., & Yan, Q. (2017). Axiomatic attribution for deep networks. In D. Precup & Y. W. Teh (Eds.), Proceedings of the 34th International Conference on Machine Learning (Vol. 70, pp. 3319–3328). PMLR. https://proceedings.mlr.press/v70/sundararajan17a.html",
+  "verified": true
+ },
+ {
+  "n": 34,
+  "cite": "(Braak & Braak, 1991)",
+  "apa": "Braak, H., & Braak, E. (1991). Neuropathological stageing of Alzheimer-related changes. Acta Neuropathologica, 82(4), 239–259. https://doi.org/10.1007/BF00308809",
+  "verified": true
+ },
+ {
+  "n": 35,
+  "cite": "(Jack et al., 2015)",
+  "apa": "Jack, C. R., Jr., Wiste, H. J., Weigand, S. D., Knopman, D. S., Mielke, M. M., Vemuri, P., Lowe, V. J., Senjem, M. L., Gunter, J. L., Reyes, D. A., Machulda, M. M., Roberts, R. O., & Petersen, R. C. (2015). Different definitions of neurodegeneration produce similar amyloid/neurodegeneration biomarker group findings. Brain, 138(12), 3747–3759. https://doi.org/10.1093/brain/awv283",
+  "verified": true
+ },
+ {
+  "n": 36,
+  "cite": "(Landau et al., 2011)",
+  "apa": "Landau, S. M., Harvey, D., Madison, C. M., Koeppe, R. A., Reiman, E. M., Foster, N. L., Weiner, M. W., & Jagust, W. J. (2011). Associations between cognitive, functional, and FDG-PET measures of decline in AD and MCI. Neurobiology of Aging, 32(7), 1207–1218. https://doi.org/10.1016/j.neurobiolaging.2009.07.002",
+  "verified": true
+ },
+ {
+  "n": 37,
+  "cite": "(Guo et al., 2017)",
+  "apa": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. In D. Precup & Y. W. Teh (Eds.), Proceedings of the 34th International Conference on Machine Learning (Vol. 70, pp. 1321–1330). PMLR. https://proceedings.mlr.press/v70/guo17a.html",
+  "verified": true
+ },
+ {
+  "n": 38,
+  "cite": "(LaMontagne et al., 2019)",
+  "apa": "LaMontagne, P. J., Benzinger, T. L. S., Morris, J. C., Keefe, S., Hornbeck, R., Xiong, C., Grant, E., Hassenstab, J., Moulder, K., Vlassenko, A. G., Raichle, M. E., Cruchaga, C., & Marcus, D. (2019). OASIS-3: Longitudinal neuroimaging, clinical, and cognitive dataset for normal aging and Alzheimer disease [Preprint]. medRxiv. https://doi.org/10.1101/2019.12.13.19014902",
+  "verified": true
+ },
+ {
+  "n": 39,
+  "cite": "(Marquand et al., 2016)",
+  "apa": "Marquand, A. F., Rezek, I., Buitelaar, J. K., & Beckmann, C. F. (2016). Understanding heterogeneity in clinical cohorts using normative models: Beyond case-control studies. Biological Psychiatry, 80(7), 552–561. https://doi.org/10.1016/j.biopsych.2015.12.023",
+  "verified": true
+ },
+ {
+  "n": 40,
+  "cite": "(La Joie et al., 2012)",
+  "apa": "La Joie, R., Perrotin, A., Barré, L., Hommet, C., Mézenge, F., Ibazizène, M., Camus, V., Abbas, A., Landeau, B., Guilloteau, D., de La Sayette, V., Eustache, F., Desgranges, B., & Chételat, G. (2012). Region-specific hierarchy between atrophy, hypometabolism, and β-amyloid (Aβ) load in Alzheimer's disease dementia. Journal of Neuroscience, 32(46), 16265–16273. https://doi.org/10.1523/JNEUROSCI.2170-12.2012",
+  "verified": true
+ },
+ {
+  "n": 41,
+  "cite": "(Klunk et al., 2015)",
+  "apa": "Klunk, W. E., Koeppe, R. A., Price, J. C., Benzinger, T. L. S., Devous, M. D., Jagust, W. J., Johnson, K. A., Mathis, C. A., Minhas, D., Pontecorvo, M. J., Rowe, C. C., Skovronsky, D. M., & Mintun, M. A. (2015). The Centiloid Project: Standardizing quantitative amyloid plaque estimation by PET. Alzheimer's & Dementia, 11(1), 1–15.e4. https://doi.org/10.1016/j.jalz.2014.07.003",
+  "verified": true
+ },
+ {
+  "n": 42,
+  "cite": "(Nosek et al., 2018)",
+  "apa": "Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. Proceedings of the National Academy of Sciences of the United States of America, 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114",
+  "verified": true
+ },
+ {
+  "n": 43,
+  "cite": "(Zhang et al., 2023)",
+  "apa": "Zhang, Y., He, X., Chan, Y. H., Teng, Q., & Rajapakse, J. C. (2023). Multi-modal graph neural network for early diagnosis of Alzheimer's disease from sMRI and PET scans. Computers in Biology and Medicine, 164, Article 107328. https://doi.org/10.1016/j.compbiomed.2023.107328",
+  "verified": true
+ }
+]
