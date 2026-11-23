@@ -1,16 +1,1 @@
-cff-version: 1.2.0
-title: "MR-XGNN: pre-registered evaluation of multimodal Alzheimer's disease classification"
-message: "If you use this software, please cite the article and this archive."
-type: software
-authors:
-  - family-names: "Senthil Kumar"
-    given-names: "D."
-  - family-names: "Pugalenthi"
-    given-names: "R."
-license: MIT
-version: "1.0.0"
-date-released: "2026-11-09"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
-    description: "Fill in after the Zenodo release"
+
