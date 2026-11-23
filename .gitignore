@@ -1,0 +1,9 @@
+data/
+results/
+venv/
+.venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+manuscript/node_modules/
+figures_smoke/
