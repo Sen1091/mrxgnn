@@ -1,0 +1,48 @@
+# Guideline-anchored rules, specified by the authors from published thresholds before training.
+# (The registered LLM drafting and neurologist vetting was not carried out: deviation C9, docs/deviations.md.)
+# t1/t2 are the guideline thresholds; training may move them by a small, penalised amount (lam_anchor).
+#
+# CSF thresholds (checked 4 Nov 2026): ADNI-derived Elecsys cut-offs from Hansson et al. (2018),
+# Alzheimer's & Dementia 14(11):1470-1481, Sec. 4.3: Abeta42 977 pg/mL, pTau/Abeta42 0.025, tTau/Abeta42 0.27
+# (agreement with visual-read florbetapir PET in ADNI). Pre-specified ADNI cut-offs in the same paper
+# (BioFINDER values x 0.8 adjustment): 880 pg/mL, 0.028, 0.33. The ADNI Biomarker Core currently quotes
+# 980 pg/mL for Abeta42 (ADNI Experts Knowledge Base QID 1399).
+#   var: "clin:<column in clinical.csv>" (raw units) or "mri:<ROI>" (W-score, i.e. SD from age/sex-expected CN)
+rules:
+  - name: csf_abeta42_low
+    var: clin:abeta
+    higher_is_disease: false
+    t1: 977.0          # pg/mL, Elecsys; Hansson et al. 2018 (ADNI-derived)
+    scale: 250.0
+    init_weights: {AD: 1.0, MCI: 0.6, CN: -0.6}
+  - name: csf_ptau_abeta_ratio_high
+    var: clin:ptau_abeta
+    higher_is_disease: true
+    t1: 0.025          # Elecsys pTau181/Abeta42; Hansson et al. 2018 (ADNI-derived)
+    scale: 0.01
+    init_weights: {AD: 1.0, MCI: 0.6, CN: -0.6}
+  - name: apoe4_carrier
+    var: clin:apoe4
+    higher_is_disease: true
+    t1: 0.5            # >= 1 e4 allele
+    t2: 1.5            # homozygous: additional ReLU term
+    scale: 1.0
+    init_weights: {AD: 0.5, MCI: 0.3, CN: -0.3}
+  - name: left_hippocampal_atrophy
+    var: mri:lh_hippocampus
+    higher_is_disease: false
+    t1: -1.5           # W-score
+    scale: 1.0
+    init_weights: {AD: 1.0, MCI: 0.5, CN: -0.5}
+  - name: right_hippocampal_atrophy
+    var: mri:rh_hippocampus
+    higher_is_disease: false
+    t1: -1.5
+    scale: 1.0
+    init_weights: {AD: 1.0, MCI: 0.5, CN: -0.5}
+  - name: left_entorhinal_atrophy
+    var: mri:lh_entorhinal
+    higher_is_disease: false
+    t1: -1.5
+    scale: 1.0
+    init_weights: {AD: 1.0, MCI: 0.5, CN: -0.5}

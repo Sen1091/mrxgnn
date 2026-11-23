@@ -1,0 +1,29 @@
+# Column mapping for OASIS-3 CSV exports (fill in from the actual file headers; run
+# `python scripts/prepare_oasis3.py --suggest ...` to print headers and candidates).
+# OASIS-3 labels (e.g. OAS30001_MR_d0129) encode days since entry after "_d".
+clinical:            # ADRC clinical data (one row per clinical visit)
+  subject: Subject            # e.g. OAS30001  [verify]
+  label: ADRC_ADRCCLINICALDATA ID   # contains _dNNNN  [verify]
+  cdr: cdr
+  dx: dx1
+  age: ageAtEntry            # age at entry; visit age = ageAtEntry + days/365.25  [verify]
+demographics:
+  subject: Subject  # [verify]
+  sex: M/F          # 'M'/'F' or 1/2  [verify]
+  educ: Education   # [verify]
+  apoe: APOE        # genotype like 33, 34, 44  [verify]
+freesurfer:          # one row per MR session
+  label: FS_FSDATA ID   # contains _dNNNN  [verify]
+  subject: Subject
+pup:                 # PET Unified Pipeline regional SUVR, one row per PET session
+  label: PUP_PUPTIMECOURSEDATA ID   # [verify]
+  subject: Subject
+  tracer: tracer       # PIB / AV45 / FDG  [verify]
+windows_days:
+  clinical_to_mr: 365
+  pet_to_mr: 365
+labels:
+  cn:  {cdr: [0.0], dx_contains: ["Cognitively normal"]}
+  mci: {cdr: [0.5], dx_contains: ["AD Dementia", "AD dem"]}     # MCI proxy: very mild AD-type impairment
+  ad:  {cdr: [1.0, 2.0, 3.0], dx_contains: ["AD Dementia", "AD dem"]}
+# ROI mapping: configs/roi_map_oasis3.csv with columns roi, mri_column, pet_column (same 82 ROIs as ADNI)

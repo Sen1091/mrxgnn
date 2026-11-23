@@ -1,0 +1,40 @@
+# Main MR-XGNN configuration (3-class CN / MCI / AD, baseline visit, subject-level CV)
+data_dir: data/adni_processed          # output of scripts/prepare_adni.py
+out_dir: results/mrxgnn_full
+classes: [CN, MCI, AD]
+# MMSE, CDR, ADAS and FAQ are deliberately EXCLUDED. ADNI diagnostic labels are defined partly by
+# MMSE/CDR, so using them as inputs is label leakage. Report this choice explicitly.
+clinical_features: [age, sex, educ, apoe4, abeta, ptau, ptau_abeta]
+use_rules: true
+rules_file: configs/rules.yaml
+cv: {folds: 5, seeds: [0, 1, 2, 3, 4], val_frac: 0.15}
+model:
+  d: 32
+  layers: 2
+  heads: 4
+  dropout: 0.2
+  use_mri: true
+  use_pet: true
+  use_clin: true
+  use_graph: true
+  use_prior: true
+  use_halluc: true
+  fusion: gated          # gated | concat
+  prior_k: 8
+train:
+  lr: 0.001
+  wd: 0.0001
+  epochs: 200
+  patience: 25
+  batch: 64
+  moddrop: true
+  p_drop_pet: 0.5
+  p_drop_mri: 0.05
+  p_drop_csf: 0.3
+  lam_kd: 0.5
+  lam_hall: 0.5
+  lam_anchor: 0.1
+  rule_lr_mult: 10.0
+scenarios: [observed, drop_pet, drop_csf, mri_only]
+explain: true
+ig_steps: 32

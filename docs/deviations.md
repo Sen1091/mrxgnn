@@ -1,0 +1,25 @@
+# Deviations from / clarifications of the pre-registered plan
+
+Registration: OSF Preregistration, submitted 4 November 2026: https://osf.io/f95pb
+(DOI https://doi.org/10.17605/OSF.IO/J4KG6).
+
+Every change after registration is listed here with its date, what changed, why, and its expected
+effect. Online Resource 1 (S4) reproduces this table.
+
+| # | Date | Change | Reason | Data seen? | Expected effect |
+|---|---|---|---|---|---|
+| C1 | 4 Nov 2026 | ADNI amyloid-PET W-scores are fitted **separately for each tracer** (florbetapir/FBP and florbetaben/FBB), as the plan already specified for OASIS-3. | The ADNI UC Berkeley 6-mm table contains both tracers (TRACER column), and their SUVR scales differ. Pooling them would let the tracer, not the disease, drive PET features. | No (public documentation, before any data file was opened) | Removes a tracer confound; no change to the hypotheses or tests. |
+| C2 | 4 Nov 2026 | The registered FreeSurfer QC rule ("failing the UCSF overall QC") is applied as OVERALLQC = **Fail or "Hippocampus Only"**. | The UCSF table defines "Hippocampus Only" as cortical measures being unusable, and the model needs all 82 regions. | No (public documentation, before any data file was opened) | A small number of extra MRI exclusions, reported in the flow diagram. |
+| C3 | 4 Nov 2026 | Guideline CSF thresholds for the rules are set to the ADNI-derived Elecsys cut-offs of Hansson et al. (2018): Aβ42 977 pg/mL and p-tau181/Aβ42 0.025. | These are the published, ADNI-derived values (concordance with florbetapir PET). The plan required the thresholds to be checked before training. | No | None on design; final values remain subject to neurologist vetting. |
+| C4 | 4 Nov 2026 | ADNI phases are restricted to ADNI-1/GO/2/3 using the ORIGPROT column, and PET is matched to baseline by scan date (≤ 180 days). | This implements the registered eligibility rules exactly. | No | None (implementation detail). |
+| C5 | 4 Nov 2026 | Source tables: ADNI now distributes ADNIMERGE only as the CDISC-style **ADNIMERGE2** R package. Baseline diagnosis = DXSUM visit "bl" (screening visit if no "bl" row); age, sex, education and APOE genotype from ADSL; enrolled participants only (ADSL.ENRLFL = Y; screen failures excluded); SMC from the ARM table; "Dementia" = AD. MRI and CSF (Elecsys) are matched to the baseline date within 180 days, like PET. ROI columns are mapped from the package's data dictionary (output: roi_map_used.csv). | The classic ADNIMERGE table named in the plan is no longer distributed. These are the equivalent variables. Baseline DXSUM diagnosis agreed 100% with ADSL.DX. | Yes – table structure and aggregate counts only, no outcome analysis | None on hypotheses; defines the analysed cohort. |
+| C6 | 4 Nov 2026 | FreeSurfer rows with a blank OVERALLQC are kept (blank = not rated as failing). | 89% of UCSF rows have no OVERALLQC value; the registered rule excludes only failing scans. | Yes – QC value counts only | Keeps most of the cohort; 18 rows excluded as failing. |
+| C7 | 4 Nov 2026 | Amyloid-PET scans with UC Berkeley qc_flag 0 (fail) or −2 (cannot be processed) are excluded; NAV4694 scans (78 rows) are excluded because no tracer-specific CN reference group can be fitted. | The plan did not specify PET QC; using a failed scan would be inappropriate. FBP/FBB only was already stated in C1. | Yes – flag counts only | 12 rows excluded; at baseline 1 retained scan had flag −1 (not assessed). |
+| C8 | 7 Nov 2026 | The registered external validation in OASIS-3 (hypothesis H5, Table 1b, Table 7 of the plan) was **not performed**. | OASIS-3 data could not be obtained during the study period. | Not applicable (no OASIS-3 data accessed) | H5 untested; all reported estimates are internal ADNI cross-validation. Reported in Methods, Results and Limitations. |
+| C9 | 9 Nov 2026 | The registered **drafting of rules by two LLMs and vetting by a neurologist was not carried out**. The six rules used (CSF Aβ₄₂ < 977 pg/mL, p-tau₁₈₁/Aβ₄₂ > 0.025, APOE ε4 ≥ 1 allele, left/right hippocampal and left entorhinal W < −1.5) were specified by the authors from published values before any model was trained. | No neurologist was available to vet the rules within the study period; LLM drafting without clinical vetting would not have met the registered safeguard. | No (rules fixed before training) | Rules are not clinically reviewed; H6 is reported descriptively for author-specified rules. Stated in Methods and Limitations. |
+
+Timing: the OSF registration was submitted before the ADNI files were downloaded (first download 16:09 IST, 4 Nov 2026). C1–C4 were written from public documentation only. C5–C7 were decided after the files were opened, using only table structure and aggregate counts; no model was trained and no outcome was compared before these decisions.
+
+No other changes were made after the ADNI results were seen; in particular no hyperparameter, model or metric was changed.
+
+Add later entries below in the same format. If there were none after data access, say so explicitly.
